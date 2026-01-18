@@ -5,7 +5,7 @@ import { collections, dbConnect } from "@/lib/dbConnect";
 // import { collections } from "@/lib/collections";
 
 export const authOptions = {
-  // secret: process.env.NEXTAUTH_SECRET,
+  secret: process.env.NEXTAUTH_SECRET,
 
   providers: [
     // =======================

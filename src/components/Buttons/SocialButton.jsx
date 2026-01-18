@@ -7,7 +7,7 @@ import Swal from "sweetalert2";
 
 const SocialButton = () => {
   const params = useSearchParams();
-  console.log(params);
+  // console.log(params);
   const handleSignIn = async () => {
     const result = await signIn("google", {
       //   redirect: false,
